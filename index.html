@@ -4,11 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Quotes</title>
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
+    <header>
+      <h1>Random Quote Generator</h1>
+    </header>
+
+    <main class="main">
+      <p class="main-quote">You can do anything but not everything.</p>
+      <p class="main-source">
+        - David Allen
+        <span class="main-citation"> Making It All Work,</span>
+        <span class="main-year"> 2009,</span>
+        <span class="main-tag"> #life</span>
+      </p>
+    </main>
+
+    <section class="btn">
+      <button id="load-quote" type="button" class="btn-1">
+        Show another quote
+      </button>
+    </section>
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Courgette", cursive;
+  background: #43a5dd;
+}
+
+h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin: 4rem;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.main {
+  font-size: 1rem;
+  width: 80%;
+  min-height: 20vh;
+  margin: 10rem auto 7rem auto;
+}
+
+.main-quote {
+  font-size: 3rem;
+  text-align: left;
+}
+
+.main-source {
+  text-align: right;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.btn-1 {
+  font-family: "Courgette", cursive;
+  font-size: 1rem;
+  color: #458db6;
+  background-color: rgba(0, 0, 0, 0.678);
+  padding: 1.2rem;
+  border: 2px solid rgba(0, 0, 0, 0.521);
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.411);
+}
+
+/* Mobile Screen */
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 3rem 2rem;
+  }
+
+  .main {
+    margin: 5rem auto 0 auto;
+    width: 85%;
+  }
+
+  .main-quote {
+    font-size: 1.5rem;
+  }
+
+  .main-source {
+    margin-top: 0.5rem;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablet Screen */
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .main-quote {
+    font-size: 2rem;
+  }
+
+  .main-source {
+    margin-top: 0.5rem;
+    text-align: right;
+    font-size: 0.8rem;
+  }
+}
